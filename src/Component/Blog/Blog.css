@@ -1,0 +1,34 @@
+.model-blog.model,
+.model-blog.overlay {
+  overflow: scroll;
+}
+.model-blog.model .model-content {
+  position: relative;
+  top: 10%;
+  left: 0;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.model-blog .model-content .left,
+.model-blog .model-content .right {
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+}
+/*----------blog_contact--------*/
+
+.blog_contact .left,
+.blog_contact .right {
+  margin: 0 25px 0 0;
+}
+
+/*----------blog_contact--------*/
+@media (max-width: 768px) {
+  .modal-blog.modal .modal-content {
+    max-width: 90%;
+  }
+  .modal-blog.modal .modal-content {
+    margin-bottom: 20%;
+  }
+}
